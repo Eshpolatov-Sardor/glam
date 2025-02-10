@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 onMounted(() => {
   AOS.init({
-    duration: 3000, // Animatsiya davomiyligi uzaytirildi
+    duration: 2000, // Animatsiya tezligi optimal holatga keltirildi
     once: true, // Faqat bir marta animatsiya qilinsin
   });
 });
@@ -13,49 +13,52 @@ onMounted(() => {
 
 <template>
   <!-- Nega aynan biz? bo'limi -->
-  <div class="bg-teal-500 flex justify-center py-10" data-aos="fade-up">
-    <div class="bg-white p-8 rounded-lg shadow-lg">
-      <h2 class="text-center text-2xl font-bold text-gray-900 mb-6">
+  <div class="bg-gradient-to-r from-teal-500 to-blue-500 flex justify-center py-12 px-6" data-aos="fade-up">
+    <div class="bg-white bg-opacity-90 p-10 rounded-2xl shadow-xl max-w-5xl w-full">
+      <h2 class="text-center text-3xl font-extrabold text-gray-900 mb-8 uppercase tracking-wider">
         Nega aynan biz?
       </h2>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-        <div data-aos="fade-right">
-          <h3 class="text-lg font-semibold text-gray-800">01. Sifat</h3>
-          <hr class="border-gray-300 my-2" />
-          <p class="text-gray-600 text-sm">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+        <div class="p-6 bg-white rounded-lg shadow-md transform transition duration-300 hover:scale-105" data-aos="fade-right">
+          <h3 class="text-xl font-semibold text-gray-800">01. Sifat</h3>
+          <hr class="border-gray-400 my-3" />
+          <p class="text-gray-600 text-base">
             Yuqori samarali import qilingan shampunlar
           </p>
         </div>
-        <div data-aos="fade-up">
-          <h3 class="text-lg font-semibold text-gray-800">02. Bepul!*</h3>
-          <hr class="border-gray-300 my-2" />
-          <p class="text-gray-600 text-sm">
+        <div class="p-6 bg-white rounded-lg shadow-md transform transition duration-300 hover:scale-105" data-aos="fade-up">
+          <h3 class="text-xl font-semibold text-gray-800">02. Bepul!*</h3>
+          <hr class="border-gray-400 my-3" />
+          <p class="text-gray-600 text-base">
             * Gilamlarni bepul olib ketamiz va yetkazib beramiz!
           </p>
         </div>
-        <div data-aos="fade-left">
-          <h3 class="text-lg font-semibold text-gray-800">03. Narx</h3>
-          <hr class="border-gray-300 my-2" />
-          <p class="text-gray-600 text-sm">Halol va shaffof narxlar</p>
+        <div class="p-6 bg-white rounded-lg shadow-md transform transition duration-300 hover:scale-105" data-aos="fade-left">
+          <h3 class="text-xl font-semibold text-gray-800">03. Narx</h3>
+          <hr class="border-gray-400 my-3" />
+          <p class="text-gray-600 text-base">Halol va shaffof narxlar</p>
         </div>
       </div>
 
-      <div
-        class="mt-8 flex flex-col md:flex-row items-center"
-        data-aos="fade-up"
-      >
-        <div class="text-left mb-4 md:mb-0 md:w-1/2">
-          <h3 class="text-xl font-bold text-gray-900">
+      <div class="mt-12 flex flex-col md:flex-row items-center" data-aos="fade-up">
+        <div class="text-left mb-6 md:mb-0 md:w-1/2">
+          <h3 class="text-4xl font-extrabold text-gray-900 leading-snug">
             Maqsadimiz - <br />
             Xonadoningiz tozaligi!
           </h3>
+          <p class="mt-4 text-lg text-gray-700">
+            Toza uy — sog‘lom hayot! Biz har doim sifatli xizmat ko‘rsatishga harakat qilamiz.
+          </p>
+          <button class="mt-6 px-6 py-3 bg-teal-500 text-white font-semibold rounded-lg shadow-md hover:bg-teal-600 transition duration-300">
+            Ko'proq ma'lumot
+          </button>
         </div>
         <div class="md:w-1/2">
           <NuxtImg
-            src="https://picsum.photos/400/200?random=6"
+            src="bepul.png"
             alt="Gilam yuvish"
-            class="w-full rounded-lg shadow-md"
+            class="w-full rounded-lg shadow-lg transform transition duration-300 hover:scale-105"
           />
         </div>
       </div>

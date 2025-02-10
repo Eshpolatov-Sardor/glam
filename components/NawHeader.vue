@@ -20,13 +20,13 @@ onMounted(() => {
 
     <div class="container mx-auto grid md:grid-cols-2 items-center relative z-10 py-32">
       <!-- Matn qismi -->
-      <div class="text-white md:pt-28" data-aos="fade-up">
+      <div class="text-white md:pt-28" data-aos="fade-in">
         <h1 class="text-4xl font-bold mb-4" data-aos="fade-right">Gilam yuvish xizmati</h1>
         <p class="text-lg mb-6" data-aos="fade-left">
           Professional gilam yuvish xizmati. Yumshoq mebellarni tozalash, shuningdek, pled va adyol yuvish bo‘yicha
           professional xizmatlarni taklif etamiz.
         </p>
-        <div class="flex space-x-4" data-aos="zoom-in">
+        <div class="flex space-x-4" data-aos="fade-in">
           <a href="tel:+998 97 090 60 60" class="bg-yellow-400 hover:bg-yellow-500 text-white font-semibold py-3 px-6 rounded-lg shadow-lg">
             Qo'ng'iroq qilish
           </a>

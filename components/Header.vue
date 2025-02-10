@@ -7,9 +7,8 @@
       class="flex items-center justify-between py-4 px-6 w-full md:w-[1280px] md:mx-auto"
     >
       <!-- Logo -->
-      <div class="text-2xl font-bold">
-        <span class="text-gray-900">Hause </span>
-        <span class="text-blue-500">Clean</span>
+      <div class="text-xl font-bold">
+        <NuxtImg class="w-24 h-12" src="logo.png" alt="Logo" />
       </div>
 
       <!-- Desktop Links -->

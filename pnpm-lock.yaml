@@ -11,6 +11,9 @@ importers:
       aos:
         specifier: ^2.3.4
         version: 2.3.4
+      heroicons:
+        specifier: ^2.2.0
+        version: 2.2.0
       vue-fa:
         specifier: ^4.0.2
         version: 4.0.2(@fortawesome/fontawesome-common-types@6.7.2)(vue@3.5.13(typescript@5.7.2))
@@ -2437,6 +2440,9 @@ packages:
   hasown@2.0.2:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
+
+  heroicons@2.2.0:
+    resolution: {integrity: sha512-yOwvztmNiBWqR946t+JdgZmyzEmnRMC2nxvHFC90bF1SUttwB6yJKYeme1JeEcBfobdOs827nCyiWBS2z/brog==}
 
   hookable@5.5.3:
     resolution: {integrity: sha512-Yc+BQe8SvoXH1643Qez1zqLRmbA5rCL+sSmk6TVos0LWVfNIB7PGncdlId77WzLGSIB5KaWgTaNTs2lNVEI6VQ==}
@@ -7224,6 +7230,8 @@ snapshots:
   hasown@2.0.2:
     dependencies:
       function-bind: 1.1.2
+
+  heroicons@2.2.0: {}
 
   hookable@5.5.3: {}
 

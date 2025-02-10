@@ -17,16 +17,22 @@ onMounted(() => {
       <h2 class="text-3xl font-light" data-aos="fade-down">Ish</h2>
       <h2 class="text-4xl font-bold text-[#1F5673]" data-aos="fade-down">Jarayoni</h2>
 
-      <div class="flex justify-center flex-wrap my-6 gap-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 my-6 gap-4">
         <NuxtImg
-          class="rounded-lg w-1/3"
-          src="https://picsum.photos/400/200?random=6"
+          class="rounded-lg h-80 w-96"
+          src="bepul.png"
+          alt="Yumshoq mebel tozalash"
+          data-aos="zoom-in"
+        />
+        <NuxtImg
+          class="rounded-lg h-80 w-96"
+          src="ish.png"
           alt="Gilam yuvish"
           data-aos="zoom-in"
         />
         <NuxtImg
-          class="rounded-lg w-1/3"
-          src="https://picsum.photos/400/200?random=7"
+          class="rounded-lg h-80 w-96"
+          src="yuvish.png"
           alt="Yumshoq mebel tozalash"
           data-aos="zoom-in"
         />
@@ -34,7 +40,7 @@ onMounted(() => {
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
         <div data-aos="fade-right">
-          <h3 class="text-xl font-bold">G‘ilam olib ketamiz</h3>
+          <h3 class="text-xl font-bold">Gilam olib ketamiz</h3>
           <p class="text-gray-600 mt-2">
             So‘rov qoldiring. Belgilangan vaqtda kur'er kelib, gilamingizni oladi.
           </p>
