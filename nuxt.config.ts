@@ -32,6 +32,7 @@ export default defineNuxtConfig({
     // i18n support by nuxt module
     // comment if you don't want to use i18n.
     '@nuxtjs/i18n',
+    '@nuxt/image',
   ],
 
   colorMode: {
