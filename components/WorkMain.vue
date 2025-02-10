@@ -1,3 +1,6 @@
+<script setup lang="ts">
+</script>
+
 <template>
   <div class="bg-[#00B8B8] py-10 flex justify-center">
     <div class="bg-white p-10 rounded-lg w-10/12 text-center shadow-lg">

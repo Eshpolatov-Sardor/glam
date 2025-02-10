@@ -30,6 +30,7 @@ export { withCtx, withDirectives, withKeys, withMemo, withModifiers, withScopeId
 export { injectHead, useHead, useSeoMeta, useHeadSafe, useServerHead, useServerSeoMeta, useServerHeadSafe } from '@unhead/vue';
 export { useCount } from '../composables/count';
 export { useUserStore } from '../stores/user';
+export { useNuxtDevTools } from '../node_modules/.pnpm/@nuxt+devtools@1.7.0_rollup@4.30.0_vite@6.0.7_@types+node@22.10.5_jiti@2.4.2_terser@5.37.0_ya_ipnqj56j6mxb74sfqkxcvfcrn4/node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
 export { defineStore, acceptHMRUpdate, usePinia, storeToRefs } from '../node_modules/.pnpm/@pinia+nuxt@0.9.0_magicast@0.3.5_pinia@2.3.0_typescript@5.7.2_vue@3.5.13_typescript@5.7.2___rollup@4.30.0/node_modules/@pinia/nuxt/dist/runtime/composables';
 export { useColorMode } from '../node_modules/.pnpm/@nuxtjs+color-mode@3.5.2_magicast@0.3.5_rollup@4.30.0/node_modules/@nuxtjs/color-mode/dist/runtime/composables';
 export { useI18n } from '../node_modules/.pnpm/vue-i18n@10.0.5_vue@3.5.13_typescript@5.7.2_/node_modules/vue-i18n/dist/vue-i18n';

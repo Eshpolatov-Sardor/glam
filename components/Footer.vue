@@ -1,3 +1,8 @@
+<script setup lang="ts">
+
+</script>
+
+
 <template>
   <div class="bg-teal-500 flex justify-center py-12 px-6">
     <div class="container grid grid-cols-1 md:grid-cols-2">
