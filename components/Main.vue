@@ -41,7 +41,7 @@ onMounted(() => {
       class="mt-6 text-gray-600 max-w-2xl mx-auto leading-relaxed"
       data-aos="fade-left"
     >
-      Bizning <b>Nano Wash</b> kompaniyamiz sifatli gilam yuvish, yumshoq
+      Bizning <b>Hause Clean</b> kompaniyamiz sifatli gilam yuvish, yumshoq
       mebellar va bruschatka tozalash xizmatlarini taklif etadi. Biz har doim
       o‘z vaqtida ishni bajaramiz, texnologiyaga rioya qilamiz va xavfsiz yuvish
       vositalaridan foydalanamiz.
