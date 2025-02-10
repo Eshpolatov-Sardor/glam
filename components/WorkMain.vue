@@ -18,13 +18,13 @@ onMounted(() => {
       <h2 class="text-4xl font-bold text-[#1F5673]" data-aos="fade-down">Jarayoni</h2>
 
       <div class="flex justify-center flex-wrap my-6 gap-4">
-        <img
+        <NuxtImg
           class="rounded-lg w-1/3"
           src="https://picsum.photos/400/200?random=6"
           alt="Gilam yuvish"
           data-aos="zoom-in"
         />
-        <img
+        <NuxtImg
           class="rounded-lg w-1/3"
           src="https://picsum.photos/400/200?random=7"
           alt="Yumshoq mebel tozalash"
