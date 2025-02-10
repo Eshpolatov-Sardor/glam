@@ -9,7 +9,7 @@
       <!-- Logo -->
       <div class="text-2xl font-bold">
         <span class="text-gray-900">Hause </span>
-        <span class="text-blue-500">Clear</span>
+        <span class="text-blue-500">Clean</span>
       </div>
 
       <!-- Desktop Links -->
