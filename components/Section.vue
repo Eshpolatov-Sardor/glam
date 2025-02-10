@@ -3,19 +3,19 @@ const services = [
   {
     id: 1,
     title: "Gilam yuvish",
-    image: "../public/image copy 4.png",
+    image: "https://picsum.photos/400/200?random=6",
     button: "BATAFSIL",
   },
   {
     id: 2,
     title: "Yumshoq mebellarni tozalash",
-    image: "../public/image copy 4.png",
+    image: "https://picsum.photos/400/200?random=6",
     button: "BATAFSIL",
   },
   {
     id: 3,
     title: "Bruschatka tozalash",
-    image: "../public/image copy 4.png",
+    image: "https://picsum.photos/400/200?random=6",
     button: "BATAFSIL",
   },
 ];
