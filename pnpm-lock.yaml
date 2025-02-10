@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      vue-fa:
+        specifier: ^4.0.2
+        version: 4.0.2(@fortawesome/fontawesome-common-types@6.7.2)(vue@3.5.13(typescript@5.7.2))
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^3.12.1
@@ -611,6 +615,10 @@ packages:
   '@fastify/accept-negotiator@1.1.0':
     resolution: {integrity: sha512-OIHZrb2ImZ7XG85HXOONLcJWGosv7sIvM2ifAPQVhg9Lv7qdmMBNVaai4QTdyuaqbKM5eO6sLSQOYI7wEQeCJQ==}
     engines: {node: '>=14'}
+
+  '@fortawesome/fontawesome-common-types@6.7.2':
+    resolution: {integrity: sha512-Zs+YeHUC5fkt7Mg1l6XTniei3k4bwG/yo3iFUtZWd/pMx9g3fdvkSK9E0FOC+++phXOka78uJcYb8JaFkW52Xg==}
+    engines: {node: '>=6'}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -4360,6 +4368,12 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
 
+  vue-fa@4.0.2:
+    resolution: {integrity: sha512-C310ql9DPmWnHjnmnNfDyeB2g2RSGKZTSg+6kOHmqk69+DTC3cfsoqrDEqNpWpI1jqv+qUAnNrIsP3Meb66XQQ==}
+    peerDependencies:
+      '@fortawesome/fontawesome-common-types': '*'
+      vue: ^3.0.0
+
   vue-i18n@10.0.5:
     resolution: {integrity: sha512-9/gmDlCblz3i8ypu/afiIc/SUIfTTE1mr0mZhb9pk70xo2csHAM9mp2gdQ3KD2O0AM3Hz/5ypb+FycTj/lHlPQ==}
     engines: {node: '>= 16'}
@@ -4962,6 +4976,8 @@ snapshots:
 
   '@fastify/accept-negotiator@1.1.0':
     optional: true
+
+  '@fortawesome/fontawesome-common-types@6.7.2': {}
 
   '@humanfs/core@0.19.1': {}
 
@@ -9510,6 +9526,11 @@ snapshots:
       semver: 7.6.3
     transitivePeerDependencies:
       - supports-color
+
+  vue-fa@4.0.2(@fortawesome/fontawesome-common-types@6.7.2)(vue@3.5.13(typescript@5.7.2)):
+    dependencies:
+      '@fortawesome/fontawesome-common-types': 6.7.2
+      vue: 3.5.13(typescript@5.7.2)
 
   vue-i18n@10.0.5(vue@3.5.13(typescript@5.7.2)):
     dependencies:

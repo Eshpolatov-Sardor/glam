@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="relative] py-16 px-6 md:px-20 flex items-center">
+  <div class="relative py-16 px-6 md:px-20 flex items-center">
     <!-- Orqa fon uchun naqsh -->
     <div class="absolute inset-0">
       <img src="../public/image copy 2.png" alt="Pattern" class="w-full h-full object-cover" />
