@@ -20,7 +20,7 @@ onMounted(() => {
           Mutaxassislarimiz siz bilan bog'lanishadi!
         </p>
         <p class="text-lg font-semibold" data-aos="zoom-in">Telefon:</p>
-        <p class="text-2xl font-bold mt-2" data-aos="zoom-in">+998 (97) 090-6060</p>
+        <p class="text-2xl font-bold mt-2" data-aos="zoom-in">+998 (99) 941 30 30</p>
       </div>
 
       <div class="bg-transparent">
