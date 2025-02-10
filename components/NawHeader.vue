@@ -17,9 +17,9 @@
           professional xizmatlarni taklif etamiz.
         </p>
         <div class="flex space-x-4">
-          <button class="bg-yellow-400 hover:bg-yellow-500 text-white font-semibold py-3 px-6 rounded-lg shadow-lg">
+          <a href="tel:+998 97 090 60 60" class="bg-yellow-400 hover:bg-yellow-500 text-white font-semibold py-3 px-6 rounded-lg shadow-lg">
             Qo'ng'iroq qilish
-          </button>
+          </a>
           <button class="border-2 border-white text-white font-semibold py-3 px-6 rounded-lg hover:bg-white hover:text-blue-500 transition">
             Xizmatlar
           </button>

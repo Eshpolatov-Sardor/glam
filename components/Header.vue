@@ -21,12 +21,12 @@
 
       <!-- Right section -->
       <div class="flex items-center space-x-4">
-        <span class="text-gray-800 hidden md:flex">RU</span>
+        <span class="text-gray-800 md:flex">RU</span>
         <button class="p-2 rounded-full text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
+            width="24"
+            height="24"
             viewBox="0 0 16 16"
           >
             <path
@@ -38,8 +38,8 @@
         <button class="p-2 rounded-full text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
+            width="24"
+            height="24"
             viewBox="0 0 16 16"
           >
             <path
