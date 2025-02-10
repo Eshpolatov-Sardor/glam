@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: 'Nuxt 3 Vitesse DKKs',
+  title: 'Hause Clear',
   link: [
     {
       rel: 'icon', type: 'image/png', href: '/nuxt.png',

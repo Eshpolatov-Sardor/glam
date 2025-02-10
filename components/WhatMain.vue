@@ -1,37 +1,50 @@
 <script setup lang="ts">
+import { onMounted } from "vue";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+onMounted(() => {
+  AOS.init({
+    duration: 3000, // Animatsiya davomiyligi uzaytirildi
+    once: true, // Faqat bir marta animatsiya qilinsin
+  });
+});
 </script>
 
-
 <template>
-  <div class="bg-teal-500 flex justify-center py-10">
+  <!-- Nega aynan biz? bo'limi -->
+  <div class="bg-teal-500 flex justify-center py-10" data-aos="fade-up">
     <div class="bg-white p-8 rounded-lg shadow-lg">
       <h2 class="text-center text-2xl font-bold text-gray-900 mb-6">
         Nega aynan biz?
       </h2>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-        <div>
+        <div data-aos="fade-right">
           <h3 class="text-lg font-semibold text-gray-800">01. Sifat</h3>
           <hr class="border-gray-300 my-2" />
           <p class="text-gray-600 text-sm">
             Yuqori samarali import qilingan shampunlar
           </p>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <h3 class="text-lg font-semibold text-gray-800">02. Bepul!*</h3>
           <hr class="border-gray-300 my-2" />
           <p class="text-gray-600 text-sm">
             * Gilamlarni bepul olib ketamiz va yetkazib beramiz!
           </p>
         </div>
-        <div>
+        <div data-aos="fade-left">
           <h3 class="text-lg font-semibold text-gray-800">03. Narx</h3>
           <hr class="border-gray-300 my-2" />
           <p class="text-gray-600 text-sm">Halol va shaffof narxlar</p>
         </div>
       </div>
 
-      <div class="mt-8 flex flex-col md:flex-row items-center">
+      <div
+        class="mt-8 flex flex-col md:flex-row items-center"
+        data-aos="fade-up"
+      >
         <div class="text-left mb-4 md:mb-0 md:w-1/2">
           <h3 class="text-xl font-bold text-gray-900">
             Maqsadimiz - <br />

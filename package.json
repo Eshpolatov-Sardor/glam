@@ -31,6 +31,7 @@
     "typescript": "^5.7.2"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "vue-fa": "^4.0.2"
   }
 }
