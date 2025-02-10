@@ -3,11 +3,13 @@
 
 <template>
   <header class="fixed top-0 left-0 right-0 z-10 bg-white shadow-md">
-    <div class="flex items-center justify-between py-4 px-6 w-full md:w-[1280px] md:mx-auto">
+    <div
+      class="flex items-center justify-between py-4 px-6 w-full md:w-[1280px] md:mx-auto"
+    >
       <!-- Logo -->
       <div class="text-2xl font-bold">
-        <span class="text-gray-900">HAUSE</span>
-        <span class="text-blue-500">CLEAR</span>
+        <span class="text-gray-900">Hause</span>
+        <span class="text-blue-500">Clear</span>
       </div>
 
       <!-- Desktop Links -->
@@ -20,7 +22,10 @@
       <!-- Right section -->
       <div class="md:flex items-center space-x-4 hidden">
         <span class="text-gray-800 md:flex">RU</span>
-        <a href="https://www.instagram.com/hause_clean_uz?igsh=bHVuejlyNjNrYnl0" class="p-2 rounded-full text-white">
+        <a
+          href="https://www.instagram.com/hause_clean_uz?igsh=bHVuejlyNjNrYnl0"
+          class="p-2 rounded-full text-white"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -84,13 +89,8 @@
             />
           </svg>
         </button>
-        <a
-          href="tel:+998 99 941 30 30"
-          class="text-gray-900 font-mono hidden md:flex"
-          >+998 99 941 30 30</a
-        >
       </div>
     </div>
-</header>
+  </header>
 </template>
 
