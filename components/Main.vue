@@ -22,7 +22,7 @@ onMounted(() => {
         class="w-40 h-40 rounded-full overflow-hidden border-4 border-gray-200 shadow-lg"
       >
         <NuxtImg
-          src="../public/image copy 3.png"
+          src="nonwash.png"
           alt="Nano Wash"
           class="w-full h-full object-cover"
         />
