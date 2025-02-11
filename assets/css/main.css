@@ -4,6 +4,7 @@
 
 body{
     background-color: #fff;
+    overflow-x: hidden;
 }
 .bgrow{
     background-color: #09BDBE;
