@@ -21,9 +21,9 @@ const bgImage = ref("url('bgrow.png')"); // Rasm manzilini to'g'ri yozing
       class="z-10 py-32 w-full bg-cover bg-center bg-no-repeat"
       :style="{ backgroundImage: bgImage }"
     >
-      <div class="text-[#052F56] md:pt-28 w-full md:px-24 px-2" data-aos="fade-in">
+      <div class="text-[#EC8305] md:pt-28 w-full md:px-24 px-2" data-aos="fade-in">
         <h1 class="text-4xl font-bold mb-4" data-aos="fade-right">Gilam yuvish xizmati</h1>
-        <p class="text-lg mb-6 text-[#0A3D62] z-0 md:w-[450px]" data-aos="fade-left">
+        <p class="text-lg mb-6 text-black z-0 md:w-[450px]" data-aos="fade-left">
           Professional gilam yuvish xizmati. Yumshoq mebellarni tozalash, adyol yuvish bo‘yicha
           professional xizmatlarni taklif etamiz.
         </p>
