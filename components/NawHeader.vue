@@ -14,8 +14,8 @@ onMounted(() => {
 <template>
   <div class="relative py-16 px-6 md:px-20 flex items-center">
     <!-- Orqa fon uchun naqsh -->
-    <div class="absolute inset-0" data-aos="fade-in">
-      <NuxtImg src="bgrow.png" alt="Pattern" class="w-full h-full object-cover" />
+    <div class="absolute inset-0 flex" data-aos="fade-in">
+      <NuxtImg src="bgrow.png" alt="Pattern" class="w-full md:h-screen md:object-fill object-cover" />
     </div>
 
     <div class="container mx-auto grid md:grid-cols-2 items-center relative z-10 py-32">
