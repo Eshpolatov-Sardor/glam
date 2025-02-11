@@ -18,7 +18,7 @@ onMounted(() => {
       <NuxtImg src="bgrow.png" alt="Pattern" class="w-full md:h-screen md:object-fill object-cover" />
     </div>
 
-    <div class="container mx-auto grid md:grid-cols-2 items-center relative z-10 py-32">
+    <div class="grid md:grid-cols-2 items-center relative z-10 py-32">
       <!-- Matn qismi -->
       <div class="text-[#052F56] md:pt-28" data-aos="fade-in">
         <h1 class="text-4xl font-bold mb-4" data-aos="fade-right">Gilam yuvish xizmati</h1>
@@ -27,10 +27,10 @@ onMounted(() => {
           professional xizmatlarni taklif etamiz.
         </p>
         <div class="flex space-x-4" data-aos="fade-in">
-          <a href="tel:+998 97 090 60 60" class="bg-[#EC8305] hover:bg-yellow-500 text-white font-semibold py-3 px-6 rounded-lg shadow-lg">
+          <a href="tel:+998 97 090 60 60" class="bg-[#EC8305] hover:bg-yellow-500 text-[#0A3D62] font-semibold py-3 px-6 rounded-lg shadow-lg">
             Qo'ng'iroq qilish
           </a>
-          <button class="border-2 border-[#F7941D] text-white font-semibold py-3 px-6 rounded-lg hover:bg-white hover:text-blue-500 transition">
+          <button class="border-2 border-[#F7941D] text-[#0A3D62] font-semibold py-3 px-6 rounded-lg hover:bg-white hover:text-blue-500 transition">
             Xizmatlar
           </button>
         </div>

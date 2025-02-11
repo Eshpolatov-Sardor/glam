@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <header class="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
+  <header class=" bg-white shadow-md">
     <div class="flex items-center justify-between py-4 px-6 w-full md:w-[1280px] md:mx-auto">
       <!-- Logo -->
       <div class="text-xl font-bold">
