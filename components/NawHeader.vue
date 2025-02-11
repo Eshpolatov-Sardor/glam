@@ -12,15 +12,15 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="relative py-16 px-6 md:px-20 flex items-center">
+  <div class="relative py-16 px-6 md:px-20 flex items-center overflow-hidden">
     <!-- Orqa fon uchun naqsh -->
-    <div class="absolute inset-0 flex" data-aos="fade-in">
-      <NuxtImg src="bgrow.png" alt="Pattern" class="w-full md:h-screen md:object-fill object-cover" />
+    <div class="absolute inset-0 flex w-full h-full overflow-hidden" data-aos="fade-in">
+      <NuxtImg src="bgrow.png" alt="Pattern" class="w-full h-full object-cover" />
     </div>
 
-    <div class="grid md:grid-cols-2 items-center relative z-10 py-32">
+    <div class="grid md:grid-cols-2 items-center relative z-10 py-32 w-full">
       <!-- Matn qismi -->
-      <div class="text-[#052F56] md:pt-28" data-aos="fade-in">
+      <div class="text-[#052F56] md:pt-28 w-full md:px-24" data-aos="fade-in">
         <h1 class="text-4xl font-bold mb-4" data-aos="fade-right">Gilam yuvish xizmati</h1>
         <p class="text-lg mb-6 text-[#0A3D62] z-0" data-aos="fade-left">
           Professional gilam yuvish xizmati. Yumshoq mebellarni tozalash, adyol yuvish bo‘yicha
@@ -38,3 +38,17 @@ onMounted(() => {
     </div>
   </div>
 </template>
+
+<style scoped>
+html, body {
+  overflow-x: hidden;
+}
+
+.relative {
+  width: 100%;
+}
+
+.absolute {
+  width: 100%;
+}
+</style>
