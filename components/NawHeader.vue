@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted } from 'vue';
+import { onMounted, ref } from 'vue';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -9,20 +9,21 @@ onMounted(() => {
     once: true, // Faqat bir marta animatsiya qilinsin
   });
 });
+
+// Rasm URL
+const bgImage = ref("url('bgrow.png')"); // Rasm manzilini to'g'ri yozing
 </script>
 
 <template>
-  <div class="relative py-16 px-6 md:px-20 flex items-center overflow-hidden full-width">
-    <!-- Orqa fon uchun naqsh -->
-    <div class="absolute inset-0 flex w-full h-full overflow-hidden" data-aos="fade-in">
-      <NuxtImg src="bgrow.png" alt="Pattern" class="w-full h-full object-fit" />
-    </div>
-
-    <div class="grid md:grid-cols-2 items-center relative z-10 py-32 w-full">
-      <!-- Matn qismi -->
-      <div class="text-[#052F56] md:pt-28 w-full md:px-24" data-aos="fade-in">
+  <div class="py-8 px-6 md:px-20 flex items-center">
+    <!-- FON RASMI QO'SHILDI -->
+    <div 
+      class="z-10 py-32 w-full bg-cover bg-center bg-no-repeat"
+      :style="{ backgroundImage: bgImage }"
+    >
+      <div class="text-[#052F56] md:pt-28 w-full md:px-24 px-2" data-aos="fade-in">
         <h1 class="text-4xl font-bold mb-4" data-aos="fade-right">Gilam yuvish xizmati</h1>
-        <p class="text-lg mb-6 text-[#0A3D62] z-0" data-aos="fade-left">
+        <p class="text-lg mb-6 text-[#0A3D62] z-0 md:w-[450px]" data-aos="fade-left">
           Professional gilam yuvish xizmati. Yumshoq mebellarni tozalash, adyol yuvish bo‘yicha
           professional xizmatlarni taklif etamiz.
         </p>
@@ -44,11 +45,7 @@ body {
   overflow-x: hidden;
 }
 
-.relative {
-  width: 100%;
-}
-
-.absolute {
+.full-width {
   width: 100%;
 }
 </style>

@@ -47,26 +47,24 @@ const selectedService = ref<{
 function openModal(service: any) {
   selectedService.value = service;
   isModalOpen.value = true;
-  document.body.classList.add("overflow-hidden"); // Modal ochilganda sahifa skrolli bloklanadi
 }
 
 // Modalni yopish
 function closeModal() {
   isModalOpen.value = false;
   selectedService.value = null;
-  document.body.classList.remove("overflow-hidden"); // Modal yopilganda sahifa skrolli tiklanadi
 }
 </script>
 
 <template>
-  <div class="overflow-hidden">
+  <div class="">
     <!-- Xizmatlar bo'limi -->
     <div class="w-full md:w-[1280px] full-width md:px-0 px-4 mx-auto py-10">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div
           v-for="service in services"
           :key="service.id"
-          class="relative group rounded-lg overflow-hidden shadow-lg"
+          class="relative group rounded-lg  shadow-lg"
           data-aos="flip-left"
         >
           <!-- Background Image -->
@@ -97,7 +95,7 @@ function closeModal() {
     <!-- Modal -->
     <div
       v-if="isModalOpen"
-      class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 overflow-hidden"
+      class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 "
     >
       <div class="bg-white p-6 rounded-lg shadow-lg max-w-lg relative w-[90%] md:w-auto">
         <button
@@ -125,7 +123,7 @@ html, body {
   overflow-x: hidden;
 }
 
-.overflow-hidden {
+. {
   overflow: hidden;
 }
 </style>
