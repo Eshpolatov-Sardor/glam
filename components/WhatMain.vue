@@ -54,7 +54,7 @@ onMounted(() => {
             Ko'proq ma'lumot
           </button>
         </div>
-        <div class="md:w-1/2">
+        <div class="md:w-1/2 overflow-hidden rounded-lg">
           <NuxtImg
             src="bepul.png"
             alt="Gilam yuvish"

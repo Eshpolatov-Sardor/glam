@@ -64,14 +64,14 @@ function closeModal() {
         <div
           v-for="service in services"
           :key="service.id"
-          class="relative group rounded-lg  shadow-lg"
+          class="relative group rounded-lg  shadow-lg overflow-hidden transform transition duration-300 hover:scale-105"
           data-aos="flip-left"
         >
           <!-- Background Image -->
           <NuxtImg
             :src="service.image"
             :alt="service.title"
-            class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-300"
+            class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-300 "
           />
 
           <!-- Overlay -->
