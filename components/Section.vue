@@ -95,9 +95,9 @@ function closeModal() {
     <!-- Modal -->
     <div
       v-if="isModalOpen"
-      class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 "
+      class="fixed inset-0 w-80% bg-black bg-opacity-50 flex items-center justify-center z-50 "
     >
-      <div class="bg-white p-6 rounded-lg shadow-lg max-w-lg relative w-[90%] md:w-auto">
+      <div class="bg-white p-6 rounded-lg shadow-lg relative">
         <button
           class="absolute top-2 right-2 text-gray-700 hover:text-black"
           @click="closeModal"
