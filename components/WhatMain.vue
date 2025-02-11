@@ -19,7 +19,7 @@ onMounted(() => {
       </h2>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-        <div class="p-6 bgrow rounded-lg shadow-md transform transition duration-300 hover:scale-105 border border-[#F7941D]" data-aos="fade-right">
+        <div class="p-6 bgrow rounded-lg shadow-md transform transition duration-300 hover:scale-105 border border-[#F7941D]" data-aos="fade-up">
           <h3 class="text-xl font-semibold text-[#052F56]">01. {{$t('Sifat')}}</h3>
           <hr class="border border-[#F7941D] my-3" />
           <p class="text-[#0A3D62] text-base">
@@ -33,7 +33,7 @@ onMounted(() => {
             {{$t('Gilamlarni')}}
           </p>
         </div>
-        <div class="p-6 bgrow rounded-lg shadow-md transform transition duration-300 hover:scale-105 border border-[#F7941D]" data-aos="fade-left">
+        <div class="p-6 bgrow rounded-lg shadow-md transform transition duration-300 hover:scale-105 border border-[#F7941D]" data-aos="fade-up">
           <h3 class="text-xl font-semibold text-[#052F56]">03. {{$t('Narx')}}</h3>
           <hr class="border border-[#F7941D] my-3" />
           <p class="text-[#0A3D62] text-base">{{$t('Halol')}}</p>

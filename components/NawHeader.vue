@@ -20,12 +20,12 @@ const bgImage = ref("url('bgrow.png')"); // Rasm manzilini to'g'ri yozing
       class="z-10 py-32 w-full bg-cover bg-center bg-no-repeat"
       :style="{ backgroundImage: bgImage }"
     >
-      <div class="text-[#EC8305] md:pt-28 w-full md:px-24 px-2" data-aos="fade-in">
-        <h1 class="text-4xl font-bold mb-4" data-aos="fade-right">{{ $t('Gilam') }}</h1>
-        <p class="text-lg mb-6 text-black z-0 md:w-[450px]" data-aos="fade-left">
+      <div class="text-[#EC8305] md:pt-28 w-full md:px-24 px-2" data-aos="fade-up">
+        <h1 class="text-4xl font-bold mb-4" data-aos="fade-up">{{ $t('Gilam') }}</h1>
+        <p class="text-lg mb-6 text-black z-0 md:w-[450px]" data-aos="fade-up">
           {{ $t('Professional') }}
         </p>
-        <div class="flex space-x-4" data-aos="fade-in">
+        <div class="flex space-x-4" data-aos="fade-up">
           <a href="tel:+998 97 090 60 60" class="bg-[#EC8305] hover:bg-yellow-500 text-[#0A3D62] font-semibold py-3 px-6 rounded-lg shadow-lg">
             {{ $t('qilish') }}
           </a>

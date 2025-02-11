@@ -22,7 +22,7 @@ function toggleSound(index: number) {
 
 <template>
   <div class="w-full md:w-[1280px] md:px-0 px-4 mx-auto text-center mt-10">
-    <h2 class="text-4xl font-bold text-gray-800 mb-10" data-aos="fade-down">
+    <h2 class="text-4xl font-bold text-gray-800 mb-10" data-aos="fade-up">
       {{ $t('haqimizda') }}
     </h2>
 

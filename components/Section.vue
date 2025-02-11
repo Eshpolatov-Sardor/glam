@@ -16,7 +16,7 @@ onMounted(() => {
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       <div
         class="relative group rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105"
-        data-aos="flip-left"
+        data-aos="fade-up"
       >
         <!-- Xizmat rasmi -->
         <NuxtImg
@@ -33,14 +33,14 @@ onMounted(() => {
           <h3 class="text-xl font-bold">{{ $t('Gilamyuvish') }}</h3>
           <button
             class="mt-4 px-4 py-2 border border-white rounded-full text-white hover:bg-white hover:text-black transition"
-            data-aos="zoom-in"
+            data-aos="fade-up"
           >{{ $t('BATAFSIL') }}
           </button>
         </div>
       </div>
       <div
         class="relative group rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105"
-        data-aos="flip-left"
+        data-aos="fade-up"
       >
         <!-- Xizmat rasmi -->
         <NuxtImg
@@ -57,14 +57,14 @@ onMounted(() => {
           <h3 class="text-xl font-bold">{{ $t('mebellarnitozalash') }}</h3>
           <button
             class="mt-4 px-4 py-2 border border-white rounded-full text-white hover:bg-white hover:text-black transition"
-            data-aos="zoom-in"
+            data-aos="fade-up"
           >{{ $t('BATAFSIL') }}
           </button>
         </div>
       </div>
       <div
         class="relative group rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105"
-        data-aos="flip-left"
+        data-aos="fade-up"
       >
         <!-- Xizmat rasmi -->
         <NuxtImg
@@ -81,7 +81,7 @@ onMounted(() => {
           <h3 class="text-xl font-bold">{{ $t('Bruschatkatozalash') }}</h3>
           <button
             class="mt-4 px-4 py-2 border border-white rounded-full text-white hover:bg-white hover:text-black transition"
-            data-aos="zoom-in"
+            data-aos="fade-up"
           >{{ $t('BATAFSIL') }}
           </button>
         </div>
