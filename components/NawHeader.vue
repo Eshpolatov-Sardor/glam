@@ -21,7 +21,7 @@ const bgImage = ref("url('bgrow.png')"); // Rasm manzilini to'g'ri yozing
       :style="{ backgroundImage: bgImage }"
     >
       <div class="text-[#EC8305] md:pt-28 w-full md:px-24 px-2" data-aos="fade-in">
-        <h1 class="text-4xl font-bold mb-4" data-aos="fade-right">{{ $t('Glam') }}</h1>
+        <h1 class="text-4xl font-bold mb-4" data-aos="fade-right">{{ $t('Gilam') }}</h1>
         <p class="text-lg mb-6 text-black z-0 md:w-[450px]" data-aos="fade-left">
           {{ $t('Professional') }}
         </p>

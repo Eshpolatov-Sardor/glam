@@ -38,7 +38,7 @@ onMounted(() => {
           <label class="text-gray-700 text-lg block mb-1">{{$t('Ismingiz')}}</label>
           <input
             type="text"
-            placeholder="Ismingiz"
+            :placeholder="$t('Ismingiz')"
             class="w-full bg-transparent border-b-2 border-gray-600 text-gray-800 py-2 focus:outline-none focus:border-gray-400 placeholder-gray-400"
           />
 
