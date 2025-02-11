@@ -20,10 +20,10 @@ onMounted(() => {
 
     <div class="container mx-auto grid md:grid-cols-2 items-center relative z-10 py-32">
       <!-- Matn qismi -->
-      <div class="text-white md:pt-28" data-aos="fade-in">
+      <div class="text-[#052F56] md:pt-28" data-aos="fade-in">
         <h1 class="text-4xl font-bold mb-4" data-aos="fade-right">Gilam yuvish xizmati</h1>
-        <p class="text-lg mb-6" data-aos="fade-left">
-          Professional gilam yuvish xizmati. Yumshoq mebellarni tozalash, shuningdek, pled va adyol yuvish bo‘yicha
+        <p class="text-lg mb-6 text-[#0A3D62]" data-aos="fade-left">
+          Professional gilam yuvish xizmati. Yumshoq mebellarni tozalash, adyol yuvish bo‘yicha
           professional xizmatlarni taklif etamiz.
         </p>
         <div class="flex space-x-4" data-aos="fade-in">

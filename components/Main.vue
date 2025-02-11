@@ -27,17 +27,17 @@ function toggleSound(index: number) {
       Biz haqimizda
     </h2>
 
-    <div class="grid md:grid-cols-3 gap-6">
+    <div class="grid md:grid-cols-3 gap-6 ">
       <div
         v-for="(video, index) in videos"
         :key="index"
-        class="bgrow pb-6 rounded-2xl shadow-lg border"
+        class="bgrow pb-6 rounded-2xl shadow-lg border border-[#F7941D]"
         data-aos="fade-up"
         :data-aos-delay="index * 200"
       >
         <div class="flex justify-center relative">
           <div
-            class="w-full h-64 rounded-xl overflow-hidden border-2 border-gray-300 shadow-md relative"
+            class="w-full h-64 rounded-xl overflow-hidden border-2 shadow-md relative"
           >
             <video
               class="w-full h-full object-cover cursor-pointer"
@@ -57,7 +57,7 @@ function toggleSound(index: number) {
             </button>
           </div>
         </div>
-        <h3 class="text-2xl font-semibold text-gray-800 mt-4">
+        <h3 class="text-2xl font-semibold text-[#052F56] mt-4">
           {{
             index === 0
               ? "Gilam tozalash"
@@ -66,7 +66,7 @@ function toggleSound(index: number) {
               : "Professional yondashuv"
           }}
         </h3>
-        <p class="text-gray-900 mt-2">
+        <p class="text-[#0A3D62] mt-2">
           {{
             index === 0
               ? "Biz sifatli gilam yuvish, yumshoq mebellar va bruschatka tozalash xizmatlarini taklif etamiz."
