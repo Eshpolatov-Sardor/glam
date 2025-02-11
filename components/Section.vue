@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
 import AOS from "aos";
-import "aos/dist/aos.css";
 
 onMounted(() => {
   AOS.init({

@@ -11,7 +11,7 @@
 
       <!-- Desktop Links -->
       <nav class="hidden md:flex space-x-6 text-lg text-gray-800">
-        <a href="#" class="hover:text-blue-600 transition">Biz</a>
+        <a href="#" class="hover:text-blue-600 transition">Bizz</a>
         <a href="#" class="hover:text-blue-600 transition">Xizmatlar</a>
         <a href="#" class="hover:text-blue-600 transition">Bog'lanish</a>
       </nav>
