@@ -14,11 +14,11 @@ onMounted(() => {
   <div class="bgrow flex justify-center py-12 px-6">
     <div class="w-full md:w-[1280px] md:mx-auto grid grid-cols-1 md:grid-cols-2">
       <div class="text-gray-800 mb-6 md:mb-0" data-aos="fade-right">
-        <h2 class="text-7xl font-light mb-4 text-[#1F5673]" data-aos="fade-down">Yana bir qadam!</h2>
+        <h2 class="text-7xl font-light mb-4 text-[#1F5673]" data-aos="fade-down">{{$t('Yana')}}</h2>
         <p class="text-3xl mb-6 text-gray-700" data-aos="fade-up">
-          Mutaxassislarimiz siz bilan bog'lanishadi!
+          {{$t('Mutaxassislarimiz')}}
         </p>
-        <p class="text-lg font-semibold text-gray-600" data-aos="zoom-in">Telefon:</p>
+        <p class="text-lg font-semibold text-gray-600" data-aos="zoom-in">{{$t('Telefon')}}</p>
         <a href="tel:+998 99 941 30 30" class="text-2xl font-bold mt-2 text-[#1F5673]" data-aos="zoom-in">+998 (99) 941 30 30</a>
       </div>
 
@@ -35,14 +35,14 @@ onMounted(() => {
         </div>
 
         <div data-aos="fade-up">
-          <label class="text-gray-700 text-lg block mb-1">Ismingiz</label>
+          <label class="text-gray-700 text-lg block mb-1">{{$t('Ismingiz')}}</label>
           <input
             type="text"
             placeholder="Ismingiz"
             class="w-full bg-transparent border-b-2 border-gray-600 text-gray-800 py-2 focus:outline-none focus:border-gray-400 placeholder-gray-400"
           />
 
-          <label class="text-gray-700 text-lg block mt-6 mb-1">Telefon</label>
+          <label class="text-gray-700 text-lg block mt-6 mb-1">{{$t('Telefon')}}</label>
           <div class="flex items-center border-b-2 border-gray-600 py-2">
             <span class="text-gray-700 text-lg">🇺🇿</span>
             <span class="text-gray-700 ml-2">+998</span>
@@ -56,7 +56,7 @@ onMounted(() => {
           <button
             class="w-full bg-[#1F5673] text-white font-semibold py-3 mt-6 rounded-full shadow-md hover:bg-[#163e54] transition"
           >
-            YUBORISH
+          {{$t('YUBORISH')}}
           </button>
         </div>
       </div>

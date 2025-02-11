@@ -4,6 +4,7 @@ type IslandComponent<T extends DefineComponent> = T & DefineComponent<{}, {refre
 interface _GlobalComponents {
       'Footer': typeof import("../components/Footer.vue")['default']
     'Header': typeof import("../components/Header.vue")['default']
+    'LangSwitcher': typeof import("../components/LangSwitcher.vue")['default']
     'Main': typeof import("../components/Main.vue")['default']
     'NawHeader': typeof import("../components/NawHeader.vue")['default']
     'Section': typeof import("../components/Section.vue")['default']
@@ -37,6 +38,7 @@ interface _GlobalComponents {
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/.pnpm/nuxt@3.15.1_@parcel+watcher@2.5.0_@types+node@22.10.5_db0@0.2.1_eslint@9.17.0_jiti@2.4.2__ior_m2dghto3gxql4daay5coa5iy5u/node_modules/nuxt/dist/app/components/server-placeholder")['default']>
       'LazyFooter': typeof import("../components/Footer.vue")['default']
     'LazyHeader': typeof import("../components/Header.vue")['default']
+    'LazyLangSwitcher': typeof import("../components/LangSwitcher.vue")['default']
     'LazyMain': typeof import("../components/Main.vue")['default']
     'LazyNawHeader': typeof import("../components/NawHeader.vue")['default']
     'LazySection': typeof import("../components/Section.vue")['default']
@@ -76,6 +78,7 @@ declare module 'vue' {
 
 export const Footer: typeof import("../components/Footer.vue")['default']
 export const Header: typeof import("../components/Header.vue")['default']
+export const LangSwitcher: typeof import("../components/LangSwitcher.vue")['default']
 export const Main: typeof import("../components/Main.vue")['default']
 export const NawHeader: typeof import("../components/NawHeader.vue")['default']
 export const Section: typeof import("../components/Section.vue")['default']
@@ -109,6 +112,7 @@ export const NuxtIsland: typeof import("../node_modules/.pnpm/nuxt@3.15.1_@parce
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/.pnpm/nuxt@3.15.1_@parcel+watcher@2.5.0_@types+node@22.10.5_db0@0.2.1_eslint@9.17.0_jiti@2.4.2__ior_m2dghto3gxql4daay5coa5iy5u/node_modules/nuxt/dist/app/components/server-placeholder")['default']>
 export const LazyFooter: typeof import("../components/Footer.vue")['default']
 export const LazyHeader: typeof import("../components/Header.vue")['default']
+export const LazyLangSwitcher: typeof import("../components/LangSwitcher.vue")['default']
 export const LazyMain: typeof import("../components/Main.vue")['default']
 export const LazyNawHeader: typeof import("../components/NawHeader.vue")['default']
 export const LazySection: typeof import("../components/Section.vue")['default']

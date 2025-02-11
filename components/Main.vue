@@ -23,7 +23,7 @@ function toggleSound(index: number) {
 <template>
   <div class="w-full md:w-[1280px] md:px-0 px-4 mx-auto text-center mt-10">
     <h2 class="text-4xl font-bold text-gray-800 mb-10" data-aos="fade-down">
-      Biz haqimizda
+      {{ $t('haqimizda') }}
     </h2>
 
     <div class="grid md:grid-cols-3 gap-6 ">
@@ -59,19 +59,19 @@ function toggleSound(index: number) {
         <h3 class="text-2xl font-semibold text-[#052F56] mt-4">
           {{
             index === 0
-              ? "Gilam tozalash"
+              ? $t('tozalash')
               : index === 1
-              ? "Sifatli xizmat"
-              : "Professional yondashuv"
+              ? $t('Sifatli')
+              : $t('yondashuv')
           }}
         </h3>
         <p class="text-[#0A3D62] mt-2">
           {{
             index === 0
-              ? "Biz sifatli gilam yuvish, yumshoq mebellar va bruschatka tozalash xizmatlarini taklif etamiz."
+              ? $t('yuvish')
               : index === 1
-              ? "Biz har doim o‘z vaqtida ishni bajaramiz, texnologiyaga rioya qilamiz va xavfsiz yuvish vositalaridan foydalanamiz."
-              : "Toshkentda gilamlarni tozalash texnik mutaxassislarimiz nazorati ostida xavfsiz va samarali tarzda amalga oshiriladi."
+              ? $t('doim')
+              : $t('toshkent')
           }}
         </p>
       </div>

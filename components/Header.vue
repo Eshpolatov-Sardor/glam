@@ -11,14 +11,14 @@
 
       <!-- Desktop Links -->
       <nav class="hidden md:flex space-x-6 text-lg text-gray-800">
-        <a href="#" class="hover:text-blue-600 transition">Bizz</a>
-        <a href="#" class="hover:text-blue-600 transition">Xizmatlar</a>
-        <a href="#" class="hover:text-blue-600 transition">Bog'lanish</a>
+        <a href="#" class="hover:text-blue-600 transition">{{ $t('biz') }}</a>
+        <a href="#" class="hover:text-blue-600 transition">{{ $t('xizmatlar') }}</a>
+        <a href="#" class="hover:text-blue-600 transition">{{ $t('Boglanish') }}</a>
       </nav>
 
       <!-- Right section -->
       <div class="md:flex items-center space-x-4 hidden">
-        <span class="text-gray-800 md:flex">RU</span>
+        <span class="text-gray-800 md:flex"><LangSwitcher /></span>
         <a
           href="https://www.instagram.com/hause_clean_uz?igsh=bHVuejlyNjNrYnl0"
           class="p-2 rounded-full text-white"
@@ -57,7 +57,7 @@
         >
       </div>
       <div class="flex items-center space-x-3 md:hidden">
-        <span class="text-gray-800 md:flex">RU</span>
+        <span class="text-gray-800 md:flex"><LangSwitcher /></span>
         <a href="https://www.instagram.com/hause_clean_uz?igsh=bHVuejlyNjNrYnl0" class="p-2 rounded-full text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
