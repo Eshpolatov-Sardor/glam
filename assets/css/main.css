@@ -4,13 +4,7 @@
 
 body{
     background-color: #fff;
-    overflow-x: hidden;
 }
 .bgrow{
     background-color: #DDDDDD;
-}
-@media (max-width: 640px){
-    body{
-        width: 100%;
-    }
 }
