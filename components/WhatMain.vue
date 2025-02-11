@@ -13,28 +13,28 @@ onMounted(() => {
 
 <template>
   <!-- Nega aynan biz? bo'limi -->
-  <div class="bg-gradient-to-r from-teal-500 to-blue-500 flex justify-center py-12 px-6" data-aos="fade-up">
-    <div class="bg-white bg-opacity-90 p-10 rounded-2xl shadow-xl max-w-5xl w-full">
+  <div class="flex justify-center py-12 px-6" data-aos="fade-up">
+    <div class="w-full md:w-[1280px] md:px-0 px-4 mx-auto ">
       <h2 class="text-center text-3xl font-extrabold text-gray-900 mb-8 uppercase tracking-wider">
         Nega aynan biz?
       </h2>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-        <div class="p-6 bg-white rounded-lg shadow-md transform transition duration-300 hover:scale-105" data-aos="fade-right">
+        <div class="p-6 bgrow rounded-lg shadow-md transform transition duration-300 hover:scale-105" data-aos="fade-right">
           <h3 class="text-xl font-semibold text-gray-800">01. Sifat</h3>
           <hr class="border-gray-400 my-3" />
           <p class="text-gray-600 text-base">
             Yuqori samarali import qilingan shampunlar
           </p>
         </div>
-        <div class="p-6 bg-white rounded-lg shadow-md transform transition duration-300 hover:scale-105" data-aos="fade-up">
+        <div class="p-6 bgrow rounded-lg shadow-md transform transition duration-300 hover:scale-105" data-aos="fade-up">
           <h3 class="text-xl font-semibold text-gray-800">02. Bepul!*</h3>
           <hr class="border-gray-400 my-3" />
           <p class="text-gray-600 text-base">
             * Gilamlarni bepul olib ketamiz va yetkazib beramiz!
           </p>
         </div>
-        <div class="p-6 bg-white rounded-lg shadow-md transform transition duration-300 hover:scale-105" data-aos="fade-left">
+        <div class="p-6 bgrow rounded-lg shadow-md transform transition duration-300 hover:scale-105" data-aos="fade-left">
           <h3 class="text-xl font-semibold text-gray-800">03. Narx</h3>
           <hr class="border-gray-400 my-3" />
           <p class="text-gray-600 text-base">Halol va shaffof narxlar</p>
@@ -50,7 +50,7 @@ onMounted(() => {
           <p class="mt-4 text-lg text-gray-700">
             Toza uy — sog‘lom hayot! Biz har doim sifatli xizmat ko‘rsatishga harakat qilamiz.
           </p>
-          <button class="mt-6 px-6 py-3 bg-teal-500 text-white font-semibold rounded-lg shadow-md hover:bg-teal-600 transition duration-300">
+          <button class="mt-6 px-6 py-3 bg-[#EC8305] text-white font-semibold rounded-lg shadow-md hover:bg-teal-600 transition duration-300">
             Ko'proq ma'lumot
           </button>
         </div>

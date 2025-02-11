@@ -3,9 +3,7 @@
 
 <template>
   <header class="fixed top-0 left-0 right-0 z-10 bg-white shadow-md">
-    <div
-      class="flex items-center justify-between py-4 px-6 w-full md:w-[1280px] md:mx-auto"
-    >
+    <div class="flex items-center justify-between py-4 px-6 w-full md:w-[1280px] md:mx-auto">
       <!-- Logo -->
       <div class="text-xl font-bold">
         <NuxtImg class="w-24 h-12" src="logo.png" alt="Logo" />
@@ -58,7 +56,7 @@
           >+998 99 941 30 30</a
         >
       </div>
-      <div class="flex items-center space-x-4 md:hidden">
+      <div class="flex items-center space-x-3 md:hidden">
         <span class="text-gray-800 md:flex">RU</span>
         <a href="https://www.instagram.com/hause_clean_uz?igsh=bHVuejlyNjNrYnl0" class="p-2 rounded-full text-white">
           <svg

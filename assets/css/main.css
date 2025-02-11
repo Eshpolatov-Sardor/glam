@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.container{
-    width: 1280px;
+body{
+    background-color: #fff;
+}
+.bgrow{
+    background-color: #09BDBE;
 }

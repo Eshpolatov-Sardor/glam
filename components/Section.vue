@@ -44,22 +44,22 @@ const selectedService = ref<{
 } | null>(null);
 
 // Modalni ochish
-const openModal = (service: any) => {
+function openModal(service: any) {
   selectedService.value = service;
   isModalOpen.value = true;
-};
+}
 
 // Modalni yopish
-const closeModal = () => {
+function closeModal() {
   isModalOpen.value = false;
   selectedService.value = null;
-};
+}
 </script>
 
 <template>
   <div>
     <!-- Xizmatlar bo'limi -->
-    <div class="md:container mx-auto py-10 px-6">
+    <div class="w-full md:w-[1280px] md:px-0 px-4 mx-auto py-10">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div
           v-for="service in services"
