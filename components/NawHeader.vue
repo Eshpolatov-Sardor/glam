@@ -22,7 +22,7 @@ onMounted(() => {
       <!-- Matn qismi -->
       <div class="text-[#052F56] md:pt-28" data-aos="fade-in">
         <h1 class="text-4xl font-bold mb-4" data-aos="fade-right">Gilam yuvish xizmati</h1>
-        <p class="text-lg mb-6 text-[#0A3D62]" data-aos="fade-left">
+        <p class="text-lg mb-6 text-[#0A3D62] z-0" data-aos="fade-left">
           Professional gilam yuvish xizmati. Yumshoq mebellarni tozalash, adyol yuvish bo‘yicha
           professional xizmatlarni taklif etamiz.
         </p>
@@ -30,7 +30,7 @@ onMounted(() => {
           <a href="tel:+998 97 090 60 60" class="bg-[#EC8305] hover:bg-yellow-500 text-white font-semibold py-3 px-6 rounded-lg shadow-lg">
             Qo'ng'iroq qilish
           </a>
-          <button class="border-2 border-white text-white font-semibold py-3 px-6 rounded-lg hover:bg-white hover:text-blue-500 transition">
+          <button class="border-2 border-[#F7941D] text-white font-semibold py-3 px-6 rounded-lg hover:bg-white hover:text-blue-500 transition">
             Xizmatlar
           </button>
         </div>
