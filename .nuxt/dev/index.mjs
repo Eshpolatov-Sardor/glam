@@ -1206,12 +1206,10 @@ const _0xK6EE = lazyEventHandler(() => {
   return useBase(opts.baseURL, ipxHandler);
 });
 
-const _lazy_XnoagV = () => Promise.resolve().then(function () { return api; });
 const _lazy_JJ2JZE = () => Promise.resolve().then(function () { return pageview$1; });
 const _lazy_Bhcca5 = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
-  { route: '/api/api', handler: _lazy_XnoagV, lazy: true, middleware: false, method: undefined },
   { route: '/api/pageview', handler: _lazy_JJ2JZE, lazy: true, middleware: false, method: undefined },
   { route: '/__nuxt_error', handler: _lazy_Bhcca5, lazy: true, middleware: false, method: undefined },
   { route: '/_ipx/**', handler: _0xK6EE, lazy: false, middleware: false, method: undefined },
@@ -1413,10 +1411,6 @@ const template$1 = (messages) => {
 const errorDev = /*#__PURE__*/Object.freeze({
   __proto__: null,
   template: template$1
-});
-
-const api = /*#__PURE__*/Object.freeze({
-  __proto__: null
 });
 
 const startAt = Date.now();
