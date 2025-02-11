@@ -11,7 +11,7 @@ onMounted(() => {
 });
 
 const videos = ref([
-  { src: "/video.mp4", isMuted: true },
+  { src: "/vedio.mp4", isMuted: true },
   { src: "/vedio2.mp4", isMuted: true },
   { src: "/vedio3.mp4", isMuted: true },
 ]);
