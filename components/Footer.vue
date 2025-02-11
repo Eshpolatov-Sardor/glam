@@ -13,7 +13,7 @@ onMounted(() => {
 
 <template>
   <div class="bgrow flex justify-center py-12 px-6">
-    <div class="container grid grid-cols-1 md:grid-cols-2">
+    <div class="w-full md:w-[1280px] md:mx-auto grid grid-cols-1 md:grid-cols-2">
       <div class="text-gray-800 mb-6 md:mb-0" data-aos="fade-right">
         <h2 class="text-7xl font-light mb-4 text-[#1F5673]" data-aos="fade-down">Yana bir qadam!</h2>
         <p class="text-3xl mb-6 text-gray-700" data-aos="fade-up">
@@ -56,7 +56,6 @@ onMounted(() => {
 
           <button
             class="w-full bg-[#1F5673] text-white font-semibold py-3 mt-6 rounded-full shadow-md hover:bg-[#163e54] transition"
-            data-aos="zoom-in"
           >
             YUBORISH
           </button>
