@@ -4,9 +4,9 @@
 <template>
   <div>
     <Header />
-    <!-- <NawHeader /> -->
-    <!-- <Main /> -->
-    <!-- <Section /> -->
+    <NawHeader />
+    <Main />
+    <Section />
     <WorkMain />
     <WhatMain />
     <Footer />
