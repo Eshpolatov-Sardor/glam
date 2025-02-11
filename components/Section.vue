@@ -3,17 +3,16 @@ import { ref, onMounted } from "vue";
 import AOS from "aos";
 import { useI18n } from "vue-i18n";
 
-const { t } = useI18n(); // Tarjimani ishlatish
+const { t } = useI18n();
 
 onMounted(() => {
   AOS.init({
-    duration: 1500, // Animatsiya davomiyligi
-    once: true, // Bir marta ishga tushishi
+    duration: 1500,
+    once: true,
   });
 });
 
-// Xizmatlar ro‘yxati
-const services = [
+const services = ref([
   {
     id: 1,
     title: t("Gilamyuvish"),
@@ -35,23 +34,24 @@ const services = [
     button: t("BATAFSIL"),
     text: t("tashqi"),
   },
-];
+]);
 
-// Modal holati va tanlangan xizmat
 const isModalOpen = ref(false);
-const selectedService = ref<{ title: string; image: string; text: string } | null>(null);
+const selectedService = ref<{
+  title: string;
+  image: string;
+  text: string;
+} | null>(null);
 
-// Modalni ochish
-const openModal = (service: any) => {
+function openModal(service: any) {
   selectedService.value = service;
   isModalOpen.value = true;
-};
+}
 
-// Modalni yopish
-const closeModal = () => {
+function closeModal() {
   isModalOpen.value = false;
   selectedService.value = null;
-};
+}
 </script>
 
 <template>
@@ -62,6 +62,7 @@ const closeModal = () => {
         :key="service.id"
         class="relative group rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105"
         data-aos="flip-left"
+        @click="openModal(service)"
       >
         <!-- Xizmat rasmi -->
         <NuxtImg
@@ -79,7 +80,6 @@ const closeModal = () => {
           <button
             class="mt-4 px-4 py-2 border border-white rounded-full text-white hover:bg-white hover:text-black transition"
             data-aos="zoom-in"
-            @click="openModal(service)"
           >
             {{ service.button }}
           </button>
@@ -113,8 +113,10 @@ const closeModal = () => {
   </div>
 </template>
 
+
 <style scoped>
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
