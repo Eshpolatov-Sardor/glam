@@ -61,7 +61,7 @@ function closeModal() {
 <template>
   <div class="overflow-hidden">
     <!-- Xizmatlar bo'limi -->
-    <div class="w-full md:w-[1280px] md:px-0 px-4 mx-auto py-10">
+    <div class="w-full md:w-[1280px] full-width md:px-0 px-4 mx-auto py-10">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div
           v-for="service in services"

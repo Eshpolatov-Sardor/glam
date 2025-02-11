@@ -12,10 +12,10 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="relative py-16 px-6 md:px-20 flex items-center overflow-hidden">
+  <div class="relative py-16 px-6 md:px-20 flex items-center overflow-hidden full-width">
     <!-- Orqa fon uchun naqsh -->
     <div class="absolute inset-0 flex w-full h-full overflow-hidden" data-aos="fade-in">
-      <NuxtImg src="bgrow.png" alt="Pattern" class="w-full h-full object-cover" />
+      <NuxtImg src="bgrow.png" alt="Pattern" class="w-full h-full object-fit" />
     </div>
 
     <div class="grid md:grid-cols-2 items-center relative z-10 py-32 w-full">
@@ -40,7 +40,7 @@ onMounted(() => {
 </template>
 
 <style scoped>
-html, body {
+body {
   overflow-x: hidden;
 }
 
