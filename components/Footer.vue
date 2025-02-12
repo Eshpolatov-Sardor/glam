@@ -14,8 +14,8 @@ const bot = {
 
 
 async function sendMessage() {
-  if (!fullName.value || !phoneNumber.value) {
-    alert("Barcha ma'lumotlar to'ldirilishi shart!");
+  if (!fullName.value || fullName.value.length < 3 || !phoneNumber.value || phoneNumber.value.length < 9) { 
+    alert("Ma'lumotlarni to'ldirishda xatolik yuz berdi, qaytadan urinib ko'ring.");
     return;
   }
 
@@ -26,8 +26,6 @@ async function sendMessage() {
   const url = `https://api.telegram.org/bot${bot.TOKEN}/sendMessage`;
 
   try {
-    console.log("Yuborilayotgan ma'lumotlar:", { chat_id: bot.chatID, text: message });
-
     const response = await fetch(url, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -39,7 +37,6 @@ async function sendMessage() {
     });
 
     const data = await response.json();
-    console.log("Telegram javobi:", data);
 
     if (!data.ok) {
       throw new Error(`Telegram xatosi: ${data.description}`);
@@ -49,7 +46,6 @@ async function sendMessage() {
     fullName.value = "";
     phoneNumber.value = "";
   } catch (error) {
-    console.error("Xatolik:", error);
     alert("Xatolik yuz berdi, qaytadan urinib ko‘ring.");
   } finally {
     isSending.value = false;
@@ -119,8 +115,8 @@ onMounted(() => {
             <span class="text-gray-700 ml-2">+998</span>
             <input
               v-model="phoneNumber"
-              type="tel"
-              placeholder="99-999-9999"
+              type="number"
+              placeholder="(99) 941 30 30"
               class="ml-3 w-full bg-transparent text-gray-800 focus:outline-none placeholder-gray-400"
             />
           </div>
