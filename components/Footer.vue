@@ -9,7 +9,7 @@ const isSending = ref(false);
 
 const bot = {
   TOKEN: "7940415705:AAE6krvFlfqEvhhctGeJa0v-0Y2Z7ziufTg",
-  chatID: "1933069895",
+  chatID: "2035885427",
 };
 
 
