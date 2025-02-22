@@ -3,7 +3,7 @@ useHead({
   title: 'Hause Clean uz',
   link: [
     {
-      rel: 'icon', type: 'image/png', href: '/nuxt.png',
+      rel: 'icon', type: 'image/png', href: '/logo.png',
     },
   ],
 })
