@@ -3,21 +3,24 @@ import process from 'node:process'
 export default defineNuxtConfig({
   app: {
     head: {
+      title: 'House Clean Uz - Uy va Mebel Tozalash Xizmati Toshkent',
       viewport: 'width=device-width, initial-scale=1',
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
-        { name: 'description', content: 'House Clean Uz – professional uy va mebel yuvish xizmati. Uy, gilam, mebel va avtomobil salonlarini tozalash bo‘yicha sifatli xizmatlar!' },
-        { name: 'keywords', content: 'uy tozalash, gilam yuvish, mebel yuvish, tozalash xizmati, professional tozalash, House Clean Uz' },
+        { name: 'description', content: 'House Clean Uz – professional uy va mebel yuvish xizmati. Toshkentda gilam yuvish, mebel tozalash, uy va avtomobil salonlarini yuvish bo‘yicha sifatli xizmatlar!' },
+        { name: 'keywords', content: 'uy tozalash, gilam yuvish Toshkent, mebel yuvish, tozalash xizmati, professional tozalash, uy yuvish, House Clean Uz' },
         { name: 'robots', content: 'index, follow' },
-        { property: 'og:title', content: 'House Clean Uz - Professional Uy va Mebel Yuvish Xizmati' },
-        { property: 'og:description', content: 'Professional gilam, mebel va uy tozalash xizmatlari. Sifatli va ekologik toza yuvish xizmatlari!' },
+        // Open Graph (Facebook, LinkedIn va boshqalar uchun)
+        { property: 'og:title', content: 'House Clean Uz - Uy va Mebel Yuvish Xizmati Toshkent' },
+        { property: 'og:description', content: 'Toshkentdagi eng yaxshi uy, gilam, mebel va avtomobil salonlarini yuvish xizmati. Sifatli, ekologik xavfsiz va professional tozalash!' },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'https://houseclean.uz' },
         { property: 'og:image', content: 'https://houseclean.uz/images/preview.jpg' },
+        // Twitter Cards
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: 'House Clean Uz - Professional Uy va Mebel Yuvish Xizmati' },
-        { name: 'twitter:description', content: 'Uy, gilam va mebel tozalash xizmatlari. Tajribali mutaxassislar va ekologik xavfsiz yuvish vositalari!' },
+        { name: 'twitter:title', content: 'House Clean Uz - Uy va Mebel Tozalash Xizmati Toshkent' },
+        { name: 'twitter:description', content: 'Toshkentda uy, gilam va mebel yuvish xizmati. Tajribali mutaxassislar va ekologik xavfsiz yuvish vositalari!' },
         { name: 'twitter:image', content: 'https://houseclean.uz/images/preview.jpg' },
       ],
       link: [
@@ -32,7 +35,42 @@ export default defineNuxtConfig({
             'name': 'House Clean Uz',
             'url': 'https://houseclean.uz',
             'image': 'https://houseclean.uz/images/preview.jpg',
-            'description': 'Professional gilam, mebel va uy tozalash xizmatlari. Sifatli va ekologik toza yuvish xizmatlari!',
+            'description': 'Toshkentdagi eng yaxshi uy va mebel tozalash xizmati. Professional gilam, mebel va avtomobil salonlarini yuvish xizmatlari.',
+            'address': {
+              '@type': 'PostalAddress',
+              'streetAddress': 'Amir Temur ko‘chasi, Toshkent',
+              'addressLocality': 'Toshkent',
+              'addressCountry': 'UZ',
+            },
+            'contactPoint': {
+              '@type': 'ContactPoint',
+              'telephone': '+998 90 123 45 67',
+              'contactType': 'customer service',
+            },
+            'openingHours': 'Mo-Su 08:00-20:00',
+            'priceRange': '$$',
+          }),
+        },
+        {
+          type: 'application/ld+json',
+          innerHTML: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Service',
+            'name': 'Uy va Mebel Yuvish Xizmati',
+            'provider': {
+              '@type': 'LocalBusiness',
+              'name': 'House Clean Uz',
+            },
+            'areaServed': {
+              '@type': 'City',
+              'name': 'Toshkent',
+            },
+            'serviceType': 'Professional Cleaning',
+            'availableChannel': {
+              '@type': 'ServiceChannel',
+              'serviceUrl': 'https://houseclean.uz',
+              'availableLanguage': ['Uzbek', 'Russian'],
+            },
           }),
         },
       ],
