@@ -8,7 +8,7 @@ export default defineNuxtConfig({
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
-        { name: 'description', content: 'House Clean Uz – professional uy va mebel yuvish xizmati. Toshkentda gilam yuvish, mebel tozalash, uy va avtomobil salonlarini yuvish bo‘yicha sifatli xizmatlar!' },
+        { hid: 'description', name: 'description', content: 'House Clean Uz – professional uy va mebel yuvish xizmati. Toshkentda gilam yuvish, mebel tozalash, uy va avtomobil salonlarini yuvish bo‘yicha sifatli xizmatlar!' },
         { name: 'keywords', content: 'uy tozalash, gilam yuvish Toshkent, mebel yuvish, tozalash xizmati, professional tozalash, uy yuvish, House Clean Uz' },
         { name: 'robots', content: 'index, follow' },
         // Open Graph (Facebook, LinkedIn va boshqalar uchun)
