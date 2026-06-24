@@ -71,6 +71,7 @@ onMounted(() => {
         </h2>
         <p class="text-3xl mb-6 text-gray-700" data-aos="fade-up">
           {{ $t("Mutaxassislarimiz") }}
+          Yaratdi Nematov Aziz
         </p>
         <p class="text-lg font-semibold text-gray-600" data-aos="fade-up">
           {{ $t("Telefon") }}
